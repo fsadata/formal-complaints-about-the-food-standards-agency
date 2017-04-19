@@ -1,0 +1,82 @@
+{
+	"fields": [
+		{
+			"name": "Stage",
+			"title": "Stage",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "ComplaintDetails",
+			"title": "ComplaintDetails",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "DateComplaintReceived",
+			"title": "DateComplaintReceived",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+                                "datePattern": "%Y-%m-%d"
+			}
+		},
+		{
+			"name": "DateAcknowledged",
+			"title": "DateAcknowledged",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+                                "datePattern": "%Y-%m-%d"
+			}
+		},
+		{
+			"name": "OriginalDueDateForResponse",
+			"title": "OriginalDueDateForResponse",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+                                "datePattern": "%Y-%m-%d"
+			}
+		},
+		{
+			"name": "DateFinalResponseSent",
+			"title": "DateFinalResponseSent",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+                                "datePattern": "%Y-%m-%d"
+			}
+		},
+		{
+			"name": "FormalNotificationOfInvestigationByThePHSO",
+			"title": "FormalNotificationOfInvestigationByThePHSO",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+                                "datePattern": "%Y-%m-%d"
+			}
+		},
+		{
+			"name": "FormalNotificationOfOutcomeByThePHSO",
+			"title": "FormalNotificationOfOutcomeByThePHSO",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+                                "datePattern": "%Y-%m-%d"
+			}
+		},
+		{
+			"name": "Outcome",
+			"title": "Outcome",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		}
+	]
+}
